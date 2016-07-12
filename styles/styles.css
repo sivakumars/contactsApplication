@@ -1,0 +1,57 @@
+*{
+	box-sizing:border-box;
+}
+
+body, html{
+	height: 100%;
+	font-size: 65%;
+}
+
+header{
+	text-align: center;
+}
+
+.contacts{
+	width: 55%;
+	height: 85%;
+	overflow: auto;
+	margin: 2px 2px 2px 2px;
+	font-size: 2em;
+	padding:2em 5em 0 5em;
+	display: inline-block;
+	border : 1px solid #ccc;
+}
+
+.contact-display{
+	width: 40%;
+	height: 85%;
+	padding: 0 0 0 20px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 2em;
+}
+
+#selectedContact{
+	margin-top: 10px;
+	border : 2px solid #ccc;	
+	display: block;
+	overflow: auto;
+	height: 45%;
+}
+
+.contact-display ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+#contactslist{
+	height: 55%;
+	overflow: auto;
+	border : 2px solid #ccc;
+	padding: 5px;
+}
+
+#phonenumber, #phonenumberbtn{
+	margin-bottom: 4px;
+	margin-top: 0px;
+}
